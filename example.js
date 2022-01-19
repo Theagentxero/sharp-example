@@ -5,7 +5,7 @@
         [1] - The Simplest Possible Example
         [2] - A Pair Of Examples That Describe The Sharp Entropy Options (This is where we talk about the two types of entropy that Sharp supports)
         [3] - Input Methods
-        [4] - Notes and Lessons Hard Learned
+        [4] - Notes and Lessons Learned
 */
 
 // Libraries (These Are Required For All Examples)
@@ -124,7 +124,7 @@ function bufferExample(){
     Sharp will let you output in a bunch of different formats, ( replace the chained call `.jpeg()` with something like `.png()` for a png or `.webp()` for webp) 
     You might want to utilize webp if you are targeting web outputs, bare in mind that these will not work for Internet Explorer clients
 
-    Sharp will NOT pass metadata from the original image onto the resized image, but you can request that metadata is passed by chaining the function `.withMetadata()` into the Sharp call
+    Sharp will NOT pass metadata from the original image onto the resized image by default, but you can request that metadata is passed by chaining the function `.withMetadata()` into the Sharp call
 */
 
 
